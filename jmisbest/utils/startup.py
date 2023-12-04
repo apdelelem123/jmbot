@@ -114,7 +114,7 @@ async def mybot():
             await asyncio.sleep(1)
             await jmisbest.send_message(
                 "@jmthon_bot",
-                "تم بنجاح تشغيل سورس جمثون عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
+                "تم بنجاح تشغيل سورس الزعيم عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
             )
             await asyncio.sleep(1)
             await jmisbest.send_message("@BotFather", "/setinline")
@@ -134,7 +134,7 @@ async def startupmessage():
                 await jmisbest.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جمثون.",
+                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس الزعيم.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -145,9 +145,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmisbest.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @jmthon\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس الزعيم **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @rr_r_v\n**المطور**: @rr_r_v\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @rr_r_v\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/rr_r_v"),)
                     ],
                 )
         except Exception as e:
