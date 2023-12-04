@@ -134,7 +134,7 @@ async def startupmessage():
                 await jmisbest.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس الزعيم.",
+                    caption="**شكرا لتنصيبك سورس الزعيم**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس الزعيم.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -147,7 +147,7 @@ async def startupmessage():
                     BOTLOG_CHATID,
                     "**لقد تم بنجاح تنصيب سورس الزعيم **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @rr_r_v\n**المطور**: @rr_r_v\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @rr_r_v\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/rr_r_v"),)
+                        (Button.url(" سورس الزعيم", "https://t.me/rr_r_v"),)
                     ],
                 )
         except Exception as e:
