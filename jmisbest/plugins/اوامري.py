@@ -66,7 +66,7 @@ async def repo(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("معلومات جمثون", data="AOMRDB")],
+        [Button.inline("معلومات الزعيم", data="AOMRDB")],
         [
             Button.inline("البوت", data="BOTCMD4"),
             Button.inline("الكروب", data="admincmd_s"),
@@ -168,7 +168,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز بالامر   `.وضع الرمز`
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -191,7 +191,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
