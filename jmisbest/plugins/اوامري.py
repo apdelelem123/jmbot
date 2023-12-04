@@ -9,7 +9,7 @@ from razan.CMD.aomari import *
 from ..Config import Config
 from ..core import check_owner
 
-ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر جمثون
+ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر السورس
 من هنا يمكنك تصفح جميع الاوامر المتاحة **"""
 
 ROZADM = "من هنا يمكنك ايجاد جميع"
@@ -25,7 +25,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await jmisbest.get_me()
         if query.startswith("اوامري") and event.query.user_id == jmisbest.uid:
             buttons = [
-                [Button.inline("معلومات جمثون", data="AOMRDB")],
+                [Button.inline("معلومات الزعيم", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="BOTCMD4"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -207,11 +207,11 @@ async def varssett(event):
 - سورس جمثون يمتلك اكثر من 100 أمر 
 - جمثون هو افضل سورس عربي يتميز بالحماية
 
-قناة الكلايش:  @JJOTT
-قناة الملاحظات: @RRRDF
-قناة السورس: @JMTHON
-قناة المساعدة: @JMTHON_HELP
-مجموعة المساعدة: @JMTHON_SUPPORT""",
+قناة الكلايش:  @rr_r_v
+قناة الملاحظات: @rr_r_v
+قناة السورس: @rr_r_v
+قناة المساعدة: @rr_r_v
+مجموعة المساعدة: @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -232,7 +232,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -257,7 +257,7 @@ async def varssett(event):
 .زخرفة الوقت 9
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -278,7 +278,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس جمثون @rr_r_v""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -358,7 +358,7 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عندما يكون امر الحماية شغال ويراسلك احد
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.وضع كليشة الحماية `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @JJOTT
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @rr_r_v
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
 اوامر فارات سورس جمثون @jmthon""",
         buttons=[
